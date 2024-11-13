@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="AdviceSlip.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:AdviceSlip.View"
+    Shell.FlyoutBehavior="Disabled"
+    Title="AdviceSlip">
+
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:SlipView}"
+        Route="MainPage" />
+
+</Shell>
